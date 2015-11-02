@@ -1,13 +1,15 @@
 import java.io.*;
 import java.net.*;
+/**
+ * Created by maaj on 2015-11-02.
+ */
 
+public class Client {
 
-class Client
-{
     public static void main(String[] args) {
 
         //Creation du jeu
-        Jeu jeu=new Jeu();
+        //Jeu jeu=new Jeu();
 
         Socket MyClient;
         BufferedInputStream input;
@@ -106,6 +108,5 @@ class Client
         catch (IOException e) {
             System.out.println(e);
         }
-
     }
 }
