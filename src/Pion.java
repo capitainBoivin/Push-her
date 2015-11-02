@@ -4,7 +4,7 @@
 public abstract class Pion {
 
     //False=noir et True=blanc
-    boolean couleur=false;
+    private boolean couleur=false;
     //Case caseActive;
 
 }

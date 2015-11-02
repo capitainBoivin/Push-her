@@ -3,7 +3,7 @@
  */
 public class Mouvement {
 
-    Case Depart;
-    Case arriver;
-    int poids=0;
+    private Case Depart;
+    private Case arriver;
+    private int poids=0;
 }

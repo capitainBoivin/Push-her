@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 
 
-class Main
+class Client
 {
     public static void main(String[] args) {
 

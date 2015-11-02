@@ -3,7 +3,7 @@
  */
 public class Case {
 
-    String id=null;
-    Pion occupant=null;
+    private String id=null;
+    private Pion occupant=null;
 
 }
